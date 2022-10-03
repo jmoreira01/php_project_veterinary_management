@@ -1,0 +1,171 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-image: url('../img/cat.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+nav{
+    background-color: #3EECAC;
+    background-image: linear-gradient(19deg, #3EECAC 0%, #EE74E1 100%);
+    height: 10vh;
+    border-style: groove;
+}
+.navbar-brand{
+    font-size: 35px;
+
+}
+.nav-item, .nav-item-logout{
+    margin: 3px;
+    padding: 1px 1px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: .5s;
+    background-size: 200% auto;
+    border-radius: 5px;
+    display: block;
+}
+.nav-item:hover{
+    background-color: #EE74E1;
+}
+.nav-item a, .nav-item-logout a {
+    color: black;
+    font-weight: bold;
+}
+.nav-item-logout:hover{
+    background-color: #ff0000;
+ }
+.nav-link{
+    border-style: groove;
+}
+
+.login-formulario {
+    margin-top: 10%;
+    margin-left: 40%;
+    align-items: center;
+    text-align: center;
+    height: auto;
+    padding: 50px;
+    width: 20%;
+    color: white;
+    background: rgba(30, 173, 227, 0.45);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.4px);
+    -webkit-backdrop-filter: blur(7.4px);
+    border: 1px solid rgba(30, 173, 227, 0.23);
+}
+.login-formulario input {
+    text-align: center;
+}
+
+.minhaconta-cabecalho {
+    margin-top: 10%;
+    margin-left: 40%;
+    align-items: center;
+    text-align: center;
+    height: auto;
+    padding: 50px;
+    width: 20%;
+    color: white;
+    background: rgba(30, 173, 227, 0.45);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.4px);
+    -webkit-backdrop-filter: blur(7.4px);
+    border: 1px solid rgba(30, 173, 227, 0.23);
+}
+
+.registoanimais {
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    padding: 20px;
+    width: 700px;
+    color: white;
+    background: rgba(30, 173, 227, 0.45);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.4px);
+    -webkit-backdrop-filter: blur(7.4px);
+    border: 1px solid rgba(30, 173, 227, 0.23);
+}
+
+
+.registoanimais input {
+    background-color: #5860a8;
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #eee;
+    font-size: 18px;
+    height: 100%;
+    outline: 0;
+    padding: 4px 20px 0;
+    width: 100%;
+}
+
+.registoanimais submit {
+    background-color: #08d;
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #eee;
+    cursor: pointer;
+    font-size: 18px;
+    height: 50px;
+    margin-top: 38px;
+// outline: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.registoanimais submit:active {
+    background-color: #06b;
+}
+
+.container-lista-animais {
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    width: auto;
+    color: white;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.80);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.6px);
+    -webkit-backdrop-filter: blur(8.6px);
+    border: 1px solid rgba(0, 0, 0, 0.59);
+}
+.container-lista-animais th {
+    color: green;
+}
+.container-lista-animais table, th, td {
+    text-align: center;
+    border: 2px dashed whitesmoke;
+}
+
+.administracao {
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    width: auto;
+    color: white;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.80);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.6px);
+    -webkit-backdrop-filter: blur(8.6px);
+    border: 1px solid rgba(0, 0, 0, 0.59);
+}
+.administracao col {
+    text-align: center;
+    border: 1px dashed whitesmoke;
+}
+
