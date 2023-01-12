@@ -1,4 +1,4 @@
-## Veterinary Clinic Management Panel
+Veterinary Clinic Management Panel
 
 ## Description
 This project was created from scratch as the final project for my module. It is a free project where I created a management panel for a veterinary clinic. The panel allows the clinic staff to manage the records of the animals under their care using a CRUD (Create, Read, Update, Delete) system.
